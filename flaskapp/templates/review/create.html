@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="login-form">
+      <form method="post">
+        <h1>{{ movie['title'] }}</h1>
+        <div class="content">
+          <div class="input-field">
+            <input class="input-text" id="title" name="title" value="Review for: {{ movie['title'] }}">
+          </div>
+          <div class="input-field">
+            <textarea class="input-text" id="body"
+                      name="body" placeholder="Review" rows="6"></textarea>
+          </div>
+        </div>
+        <div class="action">
+          <button class="actionbtn" type="submit">Create Review</button>
+        </div>
+      </form>
+    </div>
+{% endblock %}

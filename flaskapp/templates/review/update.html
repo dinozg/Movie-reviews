@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="login-form">
+      <form method="post">
+        <h1>{{ review['title'] }}</h1>
+        <div class="content">
+          <div class="input-field">
+            <input class="input-text" id="title" name="title"
+                   value="{{ request.form['title'] or review['title'] }}">
+          </div>
+          <div class="input-field">
+            <textarea class="input-text" id="body"
+                      name="body" rows="6">{{ request.form['body'] or review['body'] }}</textarea>
+          </div>
+        </div>
+        <div class="action">
+          <button class="actionbtn" type="submit">Save</button>
+        </div>
+      </form>
+
+      <form class="login-form"
+            action="{{ url_for('review.delete', id=review['id']) }}"
+            method="post">
+        <div class="action">
+          <input class="actionbtn danger" type="submit"
+                 value="Delete" onclick="return confirm('Are you sure?');">
+        </div>
+      </form>
+    </div>
+{% endblock %}

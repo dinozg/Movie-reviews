@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="image-mosaic">
+      <a class="card" href="{{ url_for('review.reviews') }}">All Reviews</a>
+
+      {% for movie in movies %}
+        {% if get_if_reviewed(movie) %}
+            <a class="card card-review"
+             style="background-image: url('{{movie['imageURL']}}')"
+             href="{{ url_for('review.update', id=movie['id']) }}"></a>
+         {% else %}
+           <a class="card"
+             style="background-image: url('{{movie['imageURL']}}')"
+             href="{{ url_for('review.create', id=movie['id']) }}"></a>
+         {% endif %}
+      {% endfor %}
+
+    </div>
+{% endblock %}

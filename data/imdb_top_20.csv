@@ -1,0 +1,21 @@
+id;title;year;imdbRating;imdbID;imageURL
+1;The Shawshank Redemption;1994;9.3;tt0111161;https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg
+2;The Godfather;1972;9.2;tt0068646;https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg
+3;The Godfather: Part II;1974;9.0;tt0071562;https://m.media-amazon.com/images/M/MV5BMTdhMDM3MGMtM2IwYS00ZDc3LTg4MjYtMTM4NGJjNmJjM2QzXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg
+4;The Dark Knight;2008;9.0;tt0468569;https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg
+5;12 Angry Men;1957;8.9;tt0050083;https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg
+6;Schindler's List;1993;8.9;tt0108052;https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg
+7;The Lord of the Rings: The Return of the King;2003;8.9;tt0167260;https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg
+8;Pulp Fiction;1994;8.9;tt0110912;https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg
+9;Fight Club;1999;8.8;tt0137523;https://m.media-amazon.com/images/M/MV5BNDIzNDU0YzEtYzE5Ni00ZjlkLTk5ZjgtNjM3NWE4YzA3Nzk3XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg
+10;The Lord of the Rings: The Fellowship of the Ring;2001;8.8;tt0120737;https://m.media-amazon.com/images/M/MV5BOGIwMjJiNWItZDUyNS00ODE1LThmMGUtYzBjMjk0MGFiNmMyXkEyXkFqcGdeQXVyMzExODEzNDA@._V1_.jpg
+11;Forrest Gump;1994;8.8;tt0109830;https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg
+12;Star Wars: Episode V - The Empire Strikes Back;1980;8.8;tt0080684;https://m.media-amazon.com/images/M/MV5BOTE4MzA4ZTktZWI3Zi00YjM5LWFkNDctODUxZGQ2ZjkxNjQzXkEyXkFqcGdeQXVyNTkxMzEwMzU@._V1_.jpg
+13;Inception;2010;8.8;tt1375666;https://m.media-amazon.com/images/M/MV5BNWNkNTI2MGItYTQyMS00NTJhLWI3N2QtNmIxZjQwMTEzNGZhXkEyXkFqcGdeQXVyMzExODEzNDA@._V1_.jpg
+14;The Lord of the Rings: The Two Towers;2002;8.7;tt0167261;https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg
+15;One Flew Over the Cuckoo's Nest;1975;8.7;tt0073486;https://m.media-amazon.com/images/M/MV5BZjA0OWVhOTAtYWQxNi00YzNhLWI4ZjYtNjFjZTEyYjJlNDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg
+16;Goodfellas;1990;8.7;tt0099685;https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg
+17;The Matrix;1999;8.7;tt0133093;https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg
+18;Se7en;1995;8.6;tt0114369;https://m.media-amazon.com/images/M/MV5BOTUwODM5MTctZjczMi00OTk4LTg3NWUtNmVhMTAzNTNjYjcyXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg
+19;It's a Wonderful Life;1946;8.6;tt0038650;https://m.media-amazon.com/images/M/MV5BZjc4NDZhZWMtNGEzYS00ZWU2LThlM2ItNTA0YzQ0OTExMTE2XkEyXkFqcGdeQXVyNjUwMzI2NzU@._V1_.jpg
+20;The Silence of the Lambs;1991;8.6;tt0102926;https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg

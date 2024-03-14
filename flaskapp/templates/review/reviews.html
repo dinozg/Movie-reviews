@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <div class="pageheader">
+    <h1>{% block title %}All Reviews{% endblock %}</h1>
+  </div>
+{% endblock %}
+
+{% block content %}
+  {% for review in all_reviews %}
+    <article class="review">
+      <div class="review-left">
+        <div class="article-img">
+          <img src="{{ get_movie_img(review['id']) }}" style="width: 100px;" />
+        </div>
+        <div class="article-content">
+          <header>
+            <div>
+              <h3>{{ review['title'] }}</h3>
+              <h5 class="about">
+                {{ review['fullname'] }}, {{ review['created'].strftime('%Y-%m-%d') }}
+              </h5>
+            </div>
+          </header>
+          <p class="article-body">{{ review['body'] }}</p>
+        </div>
+      </div>
+      <div class="review-right">
+        {% if g.user['id'] == review['author_id'] %}
+            <a class="edit-button"
+               href="{{ url_for('review.update', id=review['id']) }}">Edit</a>
+          {% endif %}
+      </div>
+    </article>
+    {% if not loop.last %}
+      <hr>
+    {% endif %}
+  {% endfor %}
+{% endblock %}
